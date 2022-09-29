@@ -4,7 +4,7 @@ Descreva dentrode um modelo relacional elaborado, onde e quais os atributos ser�
 <ul><li>
     COD_PROF : chave primária.</li>
     <li>nome: permite diferenciar e identificar cada aluno e professor.</li>
-    endereço: permite mostrar onde cada um mora.</br>
+    <li>endereço: permite mostrar onde cada um mora.</br>
     cidade: região onde o aluno mora.</br>
     fk_disciplina_cod_disc: chave estrangeira que faz referência a tabela disciplina.</br>
     mat: chave primaria da matricula do aluno.</br>

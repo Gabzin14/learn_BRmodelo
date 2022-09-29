@@ -24,3 +24,11 @@ Descreva dentrode um modelo relacional elaborado, onde e quais os atributos ser�
     <li>horário: hora de estudo e funcionamento. </li>
     <li>fk_alunos_Mat : chave estrangeira q faz referência a tabela alunos.</li>
 </ul>
+<h2>Tabela Disciplina</h2>
+<p>Essa tabela é usada principalmente para armazenar as disciplinas que cursa cada aluno.
+Nela possuímos atributos/colunas.</p>
+<ul>
+    <li>cod_disc: chave primária da tabela. </li>
+    <li>nome_disc: nome dado a cada disciplina.</li>
+    <li>carga_hor: quantidade total de horas de cada disciplina.</li>
+</ul>

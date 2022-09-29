@@ -14,6 +14,7 @@ Descreva dentrode um modelo relacional elaborado, onde e quais os atributos ser�
     <li>frequência: numero da frequência de cada aluno.</li>
     <li>nota: nota atribuida ao desempenho dos alunos.
     </li></ul>
+
 <h2>Tabela turma</h2>
 <p>A tabela turma identifica a quantidade de alunos e seus devidos professores,incluindo horário e as notas de seus alunos .Nela possuímos atributos/colunas.</p> 
 <ul>
@@ -24,6 +25,7 @@ Descreva dentrode um modelo relacional elaborado, onde e quais os atributos ser�
     <li>horário: hora de estudo e funcionamento. </li>
     <li>fk_alunos_Mat : chave estrangeira q faz referência a tabela alunos.</li>
 </ul>
+
 <h2>Tabela Disciplina</h2>
 <p>Essa tabela é usada principalmente para armazenar as disciplinas que cursa cada aluno.
 Nela possuímos atributos/colunas.</p>
@@ -31,4 +33,10 @@ Nela possuímos atributos/colunas.</p>
     <li>cod_disc: chave primária da tabela. </li>
     <li>nome_disc: nome dado a cada disciplina.</li>
     <li>carga_hor: quantidade total de horas de cada disciplina.</li>
+</ul>
+<h2>Tabela pro_tur</h2>
+<p>É a relação entre professor e turma, onde será armazenado seus dados no banco de dados.</p>
+<ul>
+    <li>fk_turma_cod_turma: chave estrangeira da tabela.</li>
+    <li>fk_professores_históricos_alunos : chave estrangeira da tabela professores_historico_aluno.</li>
 </ul>

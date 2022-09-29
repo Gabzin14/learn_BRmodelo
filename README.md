@@ -1,3 +1,11 @@
+
+# Modelo Conceitual:
+
+![Conceitual](https://user-images.githubusercontent.com/114401117/193117508-1032fbf1-765f-4fa9-bebb-882fd074f7aa.png)
+
+# Modelo Lógico:
+![logico_prova 2](https://user-images.githubusercontent.com/114401117/193117683-28c10d51-0876-466c-aa3f-a9345f3c4ab1.png)
+
 # Descrição das tabelas do modelo
 <h2> Tabela professores_historico_alunos </h2>
 Descreva dentrode um modelo relacional elaborado, onde e quais os atributos serão armazenados no historico, tanto como aluno e professor, dentro do nosso banco. Nela possuimos os atributos/colunas. 

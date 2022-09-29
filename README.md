@@ -34,9 +34,18 @@ Nela possuímos atributos/colunas.</p>
     <li>nome_disc: nome dado a cada disciplina.</li>
     <li>carga_hor: quantidade total de horas de cada disciplina.</li>
 </ul>
+
 <h2>Tabela pro_tur</h2>
 <p>É a relação entre professor e turma, onde será armazenado seus dados no banco de dados.</p>
 <ul>
     <li>fk_turma_cod_turma: chave estrangeira da tabela.</li>
     <li>fk_professores_históricos_alunos : chave estrangeira da tabela professores_historico_aluno.</li>
+</ul>
+
+<h2>Tabela alu_pro</h2>
+<p>Essa tabela é a relação entre professor e aluno,  onde contém e será armazenados dados dos dois, onde se organizam no banco.</p>
+<ul>
+    <li>fk_histórico_alunos_Mat: chave estrangeira da tabela alunos.</li>
+    <li>fk_histórico_alunos_cod: chave estrangeira da tabela alunos.</li>
+    <li>fk_professores_histórico: chave estrangeira da relação professor e histórico.</li>
 </ul>

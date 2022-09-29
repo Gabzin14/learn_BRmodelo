@@ -49,3 +49,10 @@ Nela possuímos atributos/colunas.</p>
     <li>fk_histórico_alunos_cod: chave estrangeira da tabela alunos.</li>
     <li>fk_professores_histórico: chave estrangeira da relação professor e histórico.</li>
 </ul>
+
+<h2>Tabela alu_disc</h2>
+<p>Essa tabela é a relação entre aluno e disciplina, ela armazena os dados da disciplina e os dados do aluno para identificar qual disciplina estudar.Nela temos atributos/colunas.</p>
+<ul>
+    <li>fk_alunos_mat: chave estrangeira da tabela alunos.</li>
+    <li>fk_disciplinas_cod_disc: chave estrangeira da tabela disciplinas.</li>
+</ul>

@@ -7,7 +7,7 @@
 ![logico_prova 2](https://user-images.githubusercontent.com/114401117/193117683-28c10d51-0876-466c-aa3f-a9345f3c4ab1.png)
 
 # Descrição das tabelas do modelo
-<h2> Tabela professores_historico_alunos </h2>
+## Tabela professores_historico_alunos
 Descreva dentrode um modelo relacional elaborado, onde e quais os atributos serão armazenados no historico, tanto como aluno e professor, dentro do nosso banco. Nela possuimos os atributos/colunas. 
 <ul><li>
     COD_PROF : chave primária.</li>
@@ -23,7 +23,7 @@ Descreva dentrode um modelo relacional elaborado, onde e quais os atributos ser�
     <li>nota: nota atribuida ao desempenho dos alunos.
     </li></ul>
 
-<h2>Tabela turma</h2>
+## Tabela turma
 <p>A tabela turma identifica a quantidade de alunos e seus devidos professores,incluindo horário e as notas de seus alunos .Nela possuímos atributos/colunas.</p> 
 <ul>
     <li>cod_disc: número de identificação de cada disciplina.</li>
@@ -34,7 +34,7 @@ Descreva dentrode um modelo relacional elaborado, onde e quais os atributos ser�
     <li>fk_alunos_Mat : chave estrangeira q faz referência a tabela alunos.</li>
 </ul>
 
-<h2>Tabela Disciplina</h2>
+## Tabela Disciplina
 <p>Essa tabela é usada principalmente para armazenar as disciplinas que cursa cada aluno.
 Nela possuímos atributos/colunas.</p>
 <ul>
@@ -43,14 +43,14 @@ Nela possuímos atributos/colunas.</p>
     <li>carga_hor: quantidade total de horas de cada disciplina.</li>
 </ul>
 
-<h2>Tabela pro_tur</h2>
+## Tabela pro_tur
 <p>É a relação entre professor e turma, onde será armazenado seus dados no banco de dados.</p>
 <ul>
     <li>fk_turma_cod_turma: chave estrangeira da tabela.</li>
     <li>fk_professores_históricos_alunos : chave estrangeira da tabela professores_historico_aluno.</li>
 </ul>
 
-<h2>Tabela alu_pro</h2>
+## Tabela alu_pro
 <p>Essa tabela é a relação entre professor e aluno,  onde contém e será armazenados dados dos dois, onde se organizam no banco.</p>
 <ul>
     <li>fk_histórico_alunos_Mat: chave estrangeira da tabela alunos.</li>
